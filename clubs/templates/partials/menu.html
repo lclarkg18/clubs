@@ -1,0 +1,25 @@
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav me-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'show_clubs' %}">Clubs</a>
+    </li>
+  </ul>
+
+
+  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="user-account-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="bi-person-circle"></span>
+      </a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="user-account-dropdown">
+
+        <li><a class="dropdown-item" href='{% url 'account' %}'>My Profile</a></li>
+        <li> <a class="dropdown-item" href="{% url 'my_clubs_list' %}" aria-labelledby="my-clubs-dropdown">My Clubs </a></li>
+        {% include "partials/my_clubs_combobox.html"%}
+        <li> <a class="dropdown-item" href="{% url 'my_tournament_list' %}" aria-labelledby="my-tournaments-dropdown">My Tournaments </a></li>
+        <li><hr class="dropdown-divider" style="margin:2px"></li>
+        <li style="background-color:rgba(220, 53, 69, 0.8)"><a class="dropdown-item" href='{% url 'log_out' %}'>Log out</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>

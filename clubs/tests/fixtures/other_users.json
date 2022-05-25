@@ -1,0 +1,68 @@
+[
+  {
+    "model": "clubs.user",
+    "pk": 2,
+    "fields": {
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "username": "janedoe",
+      "email": "janedoe@example.org",
+      "bio": "Jane here. I like chess.",
+      "experience": 2,
+      "password": "pbkdf2_sha256$260000$7FuLCy6i6tRTsm2GgebFWh$gSV4zo0N7chWhcBheeWMXRIE4pyc3kIQnzpoH90lliI=",
+      "is_active": true
+    }
+  },
+  {
+    "model": "clubs.user",
+    "pk": 3,
+    "fields": {
+      "first_name": "Richard",
+      "last_name": "Doe",
+      "username": "richarddoe",
+      "email": "richarddoe@example.org",
+      "bio": "Richard here. I like chess.",
+      "password": "pbkdf2_sha256$260000$7FuLCy6i6tRTsm2GgebFWh$gSV4zo0N7chWhcBheeWMXRIE4pyc3kIQnzpoH90lliI=",
+      "is_active": true
+    }
+  },
+  {
+    "model": "clubs.user",
+    "pk": 4,
+    "fields": {
+      "first_name": "Jamie",
+      "last_name": "Doe",
+      "username": "jamiedoe",
+      "email": "jamiedoe@example.org",
+      "bio": "Jamie here. Pronouns they/them.",
+      "password": "pbkdf2_sha256$260000$7FuLCy6i6tRTsm2GgebFWh$gSV4zo0N7chWhcBheeWMXRIE4pyc3kIQnzpoH90lliI=",
+      "is_active": true
+    }
+  },
+  {
+    "model": "clubs.user",
+    "pk": 5,
+    "fields": {
+      "first_name": "Tom",
+      "last_name": "Doe",
+      "username": "tomdoe",
+      "email": "tomdoe@example.org",
+      "bio": "Tom here. I like chess (a lot).",
+      "password": "pbkdf2_sha256$260000$7FuLCy6i6tRTsm2GgebFWh$gSV4zo0N7chWhcBheeWMXRIE4pyc3kIQnzpoH90lliI=",
+      "is_active": true
+    }
+  },
+  {
+    "model": "clubs.user",
+    "pk": 6,
+    "fields": {
+      "first_name": "Maria",
+      "last_name": "Dandy",
+      "username": "mariadandy",
+      "email": "mariadandy@example.org",
+      "bio": "Maria here. I like chess.",
+      "password": "pbkdf2_sha256$260000$7FuLCy6i6tRTsm2GgebFWh$gSV4zo0N7chWhcBheeWMXRIE4pyc3kIQnzpoH90lliI=",
+      "is_active": true
+    }
+  }
+]

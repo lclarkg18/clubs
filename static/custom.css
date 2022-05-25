@@ -1,0 +1,121 @@
+/*
+ * Alerts
+ */
+
+.alert {
+  border-radius: 0px;
+}
+
+
+/*
+ * Cover page
+ */
+
+.content {
+  padding-top: 10px;
+}
+
+#cover-image {
+  background: url('images/chess-cover.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.h-100 {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.vcenter-item{
+    display: flex;
+    align-items: center;
+}
+
+/*
+ * Cover page
+ */
+h1.cover-heading {
+  font-size: 3rem;
+}
+
+h2.cover-text {
+  font-size: 1.7rem;
+}
+
+.cover-card {
+  background-color: rgba(230, 204, 179, 0.6);
+  max-width: 25rem;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  border-radius: 10%;
+}
+.cover-card-block {
+  opacity: 1
+}
+
+
+/*
+ * forms
+ */
+.nolabel label {
+  display: none;
+}
+
+ul.errorlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+ * Hyperlinks
+ */
+.content a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+.content a:hover {
+  text-decoration: underline;
+  color: #0d6efd;
+}
+
+/*
+* Buttons
+*/
+
+.home-page-button {
+  width: 40% !important;
+}
+
+.dropdown-menu-end {
+  padding: 0px;
+}
+
+.search-icon {
+  float:left;
+  padding-top: 1%;
+  padding-right: 1%;
+}
+.search-bar {
+  float: left;
+  width: 95%;
+}
+
+.search-button {
+  float: right;
+}
+
+.btn-risk {
+  background-color: orange !important;
+}
+
+/*
+* Table adjustments
+*/
+tbody {
+  border-top: none !important;
+}
