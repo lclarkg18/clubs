@@ -1,18 +1,8 @@
-# Team Chickaree Small Group project
+# Chess clubs django project
 
-## Team members
-The members of the team are:
-- Michael Mulianto
-- Kieran Woolley
-- John Kelly
-- Liam Clark Gutiérrez
-- Kanishk Upadhyay
-
-## Project structure
-The project is called `system`.  It currently consists of a single app `clubs`.
 
 ## Deployed version of the application
-The deployed version of the application can be found [here](https://lit-tundra-65931.herokuapp.com/).
+The deployed version of the application can be found [here]().
 
 ## Installation instructions
 To install the software and use it in your local development environment, you must first set up and activate a local development environment.  From the root of the project:
@@ -28,7 +18,7 @@ Install all required packages:
 $ pip3 install -r requirements.txt
 ```
 
-**As in Tools video 10.2, you may have to reinstall libpq-dev to remove errors if using Ubuntu 20.04:**
+**You may have to reinstall libpq-dev to remove errors if using Ubuntu 20.04:**
 
 ```
 $ sudo apt-get install libpq-dev --reinstall
